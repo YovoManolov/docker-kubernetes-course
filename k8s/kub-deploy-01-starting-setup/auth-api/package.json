@@ -1,16 +1,17 @@
 {
-  "name": "auth-api",
+  "name": "users-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Maximilian Schwarzmüller / yovomid GmbH",
+  "author": "Maximilian Schwarzmüller / Academind GmbH",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "body-parser": "^1.19.0",
-    "axios": "^0.20.0"
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1"
   }
 }
